@@ -1,21 +1,41 @@
 header {
-    height: 65px;
-    padding: 0 300px;
-    display: flex;
-    justify-content: space-between;
-    box-shadow: 0px 1px 2px 0px rgba(229, 229, 229, 0.5);
-    align-items: center; /* flexのの縦方向の中央揃え */
-  }
-  
-  div {
-    font-size: 18px;
-    font-weight: 600;
-    width: 300px;
-    display: flex;
-    justify-content: space-around;
-  }
-  
-  h1{
-    font-size: 20px;
-    font-weight: bold;
-  }
+  height: 65px;
+  padding: 0 300px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 1px 2px 0px rgba(229, 229, 229, 0.5);
+  align-items: center; /* flexのの縦方向の中央揃え */
+}
+
+.top-nav-menu {
+  font-size: 18px;
+  font-weight: 600;
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.main {
+  margin: 0 auto;
+  width: 600px;
+}
+
+.main-child {
+  align-items: center;
+  display: flex;
+  margin-top: 200px;
+  justify-content: space-between;
+}
+
+.main-child img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.profile-text {
+  width: 300px;
+}
